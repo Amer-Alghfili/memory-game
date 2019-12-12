@@ -33,6 +33,34 @@ h1 {
     font-weight: 300;
 }
 
+.win {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin-top: -59%;
+    width: 40%;
+    border: 1px rgba(46, 61, 73, 0.5) solid;
+    border-radius: 10px;
+    background: #ffffff url('../img/geometry2.png');
+}
+
+.win li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.win button {
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #02ccba;
+    cursor: pointer;
+}
+
 /*
  * Styles for the deck of cards
  */
@@ -86,6 +114,7 @@ h1 {
  */
 
 .score-panel {
+   
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
