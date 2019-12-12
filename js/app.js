@@ -20,8 +20,6 @@ let startsFromZero = true;
  *   - add each card's HTML to the page
  */
 
-resetCards(list);
-
 function resetCards (list) {
     shuffle(list);
     const deck = document.querySelector('.deck');
@@ -120,7 +118,7 @@ function shuffle(array) {
  }
 
  function starsDecrement () {
-    if(moves === 4) {
+    if(moves === 21 || moves === 41) {
         numOfStars--;
         stars.removeChild(stars.firstElementChild);
     }
@@ -198,25 +196,10 @@ function shuffle(array) {
    displaySymbol(event.target);
  }
 
-//  function reset() {
-//     openedCards = [];
-//     const list = Array.from(document.getElementsByClassName('card'));
-//     resetCards(list);
-//     const starsArr = Array.from(document.getElementsByClassName('fa fa-star'));
-//     const clonedEl = starsArr[0].cloneNode(true);
-//     console.log(starsArr);
-//     for(let i=3,j=0; i>starsArr.length; i--,j++) {
-//         console.log(starsArr[j]);
-//         stars.appendChild(clonedEl);
-//     }
-//     timer.innerHTML = `${0}:${0}`;
-//     moves = 0;
-//     movesElement.innerHTML = 0;
-//  }
-
  function restartHandler() {
      window.location.reload();
  }
 
+ resetCards(list);
  restart.addEventListener('click', restartHandler);
  
