@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Installation](#installatino)
+* [Installation](#installation)
 * [Overview](#overview)
 * [Game describtion](#game-describtion)
 * [Game features](#game-features)
