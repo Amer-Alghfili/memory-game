@@ -4,8 +4,8 @@
 
 * [Installation](#installatino)
 * [Overview](#overview)
-* [Game describtion](#game describtion)
-* [Game features](#game features)
+* [Game describtion](#game-describtion)
+* [Game features](#game-features)
 
 ##Installation
 You can clone this repository via Github.
