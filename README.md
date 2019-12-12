@@ -2,19 +2,28 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Installation](#installation)
+* [Overview](#overview)
+* [Game describtion](#game-describtion)
+* [Game features](#game-features)
 
-## Instructions
+## Installation
+You can clone this repository via Github.
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Overview
+Memory game is a browser game, it contains sixteen cards in a square model and a stars rating to evaluate your performance, a timer and moves you made during the game.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Game describtion
+ You click on a card and it will be flipped to show you its symbol.
+ You click on another card, if these two cards are similar to each other, they will be shown with green color until the game is finish, otherwise these two cards will be flipped and the symbols will be hidden.
+In case you got two cards are similar then you click on another card and it will be shown until you click on another card and if they are similar they will be shown until the game finish, otherwise these two cards will be hidden and so on.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Game features
+When all sixteen cards are shown a modal will appear to give you stars rating, time token to win, congratulation message and an option to restart the game.
+Three stars will rate your performance during the game, in each 20 click you will lose a star ⭐️, also the timer will fire once you start playing, it will stop when you win the game.
+Number of moves will be increasing with each try you made.
+There is a restart option you can use it during the game, it will reset everything, star rating, timer, moves number and the cards.
 
-## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
